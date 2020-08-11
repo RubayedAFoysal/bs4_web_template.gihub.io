@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BS4 Web Template</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./plugin/css/uikit.min.css">
+  <link rel="stylesheet" href="./plugin/css/navbar-fixed.css">
+  <link rel="stylesheet" href="css/all.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header id="head">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-2"
+      uk-sticky="top:350; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#head">Rubayed Ahmed Foysal</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#head">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+
+              <div class="dropdown-menu" id="menu" aria-labelledby="navbarDropdown">
+
+                <a class="dropdown-item drop" href="#services">Web Developer</a>
+                <a class="dropdown-item drop" href="#services">Software Developer</a>
+                <a class="dropdown-item drop" href="#services">Graphic Designer</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item drop" href="#services">Something else here</a>
+
+              </div>
+
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#gallary">Gallary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+
+          </ul>
+
+          <form class="form-inline pl-lg-5 ml-lg-5 my-2 my-lg-0">
+
+            <input class="form-control form-control-md mr-sm-2" type="search" placeholder="Search"
+              aria-label="Search" />
+
+            <button class="btn btn-outline-success ml-sm-2 my-2 my-sm-0 mx-auto" type="submit">
+              Search
+            </button>
+
+          </form>
+
+        </div>
+      </div>
+
+    </nav>
+
+    <!-- navbar -->
+
+
+    <!-- carousel-slider start here -->
+    <section id="slider" class="bg-dark">
+      <div id="myCar" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#myCar" data-slide-to="0"></li>
+          <li data-target="#myCar" data-slide-to="1"></li>
+          <li data-target="#myCar" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-item-img1 active">
+            <div class="container">
+              <div class="carousel-caption mb-4">
+                <h2 class="display-4 text-light">
+                  Heading One
+                </h2>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                  laudantium at optio. Ea enim, earum qui numquam iure nostrum
+                  dicta!
+                </p>
+                <a class="btn btn-danger" href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-item-img2">
+            <div class="container">
+              <div class="carousel-caption mb-4  text-right">
+                <h2 class="display-4 text-light">
+                  Heading Two
+                </h2>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                  laudantium at optio. Ea enim, earum qui numquam iure nostrum
+                  dicta!
+                </p>
+                <a class="btn btn-success" href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-item-img3">
+            <div class="container">
+              <div class="carousel-caption mb-4 text-left">
+                <h2 class="display-4 text-light">
+                  Heading Three
+                </h2>
+                <p class="lead text-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                  at optio. Ea enim, earum qui
+                  dicta!
+                </p>
+                <a class="btn btn-outline-warning" href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <a href="#myCar" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#myCar" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- carousel end here -->
+  </header>
+  <!-- about us -->
+
+  <section id="about" class="bg-light my-5">
+    <div class="container pt-3">
+      <h1 class="text-center text-capitalize pt-5 font-weight-bold">about us</h1>
+      <hr class="w-25 mx-auto">
+
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <div class="card m-3">
+            <img src="./img/team.jpg" class="img-fluid card-img-top" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 pl-5" id="who">
+          <h1 class="font-weight-bold">Who I am?</h1>
+          <hr class="mt-2">
+          <p class="lead mt-4 text-muted font-weight-lighter">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quisquam magni sequi
+            iusto quia sed exercitationem officiis
+            adipisci dolorum praesentium voluptatum fuga accusantium labore cum, fugit ut,
+            architecto repudiandae?
+          </p>
+
+          <button class="btn btn-outline-success mt-3">Wanna Know Me</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about us -->
+
+  <!-- services -->
+  <section class="mt-3 mb-5" id="services">
+
+    <div class="container mb-5">
+      <h1 class="text-center text-capitalize font-weight-bold">services</h1>
+      <hr class="w-25 mx-auto mb-5">
+
+      <div class="row">
+        <div class="col-md-4 col-12 mb-3">
+          <div class="card">
+            <img class="card-img-top mb-3" src="./img/web.jpg" alt="">
+            <div class="card-body">
+              <h3 class="card-title text-center">Web Developer</h3>
+              <p class="card-text lead text-center text-muted my-4">Some Text</p>
+
+              <div class="text-center my-2">
+                <a target="_blank" class="btn btn-outline-secondary" href="https://github.com/RubayedAFoysal">See
+                  Profile</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-12 mb-3">
+          <div class="card">
+            <img class="card-img-top mb-3" src="./img/soft.jpg" alt="">
+            <div class="card-body">
+              <h3 class="card-title text-center">Software Developer</h3>
+              <p class="card-text lead text-center text-muted my-4">Some Text</p>
+
+              <div class="text-center my-2">
+                <a target="_blank" class="btn btn-outline-secondary" href="https://github.com/RubayedAFoysal">See
+                  Profile</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top mb-3" src="./img/graphic.jpg" alt="">
+            <div class="card-body">
+              <h3 class="card-title text-center">Graphic Designer</h3>
+              <p class="card-text lead text-center text-muted my-4">Some Text</p>
+
+              <div class="text-center my-2">
+                <a target="_blank" class="btn btn-outline-secondary" href="https://github.com/RubayedAFoysal">See
+                  Profile</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-dark text-light my-5">
+      <article class="py-5 text-center">
+        <h3 class="display-4 text-center text-light" id="call">01721234454</h3>
+        <p class="text-light">If you want best service. Call us now</p>
+        <button class="btn btn-outline-warning">Call Now</button>
+      </article>
+    </div>
+  </section>
+  <!-- services -->
+
+  <!-- Gallary -->
+  <section id="gallary" class="py-3 text-center">
+    <div class="container" uk-lightbox>
+      <h1 class="text-center text-capitalize font-weight-bold gall">gallary</h1>
+      <hr class="w-25 mx-auto pb-4 pt-0">
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div>
+            <a href="img/image1.jpeg">
+              <img class="img-fluid" src="img/image1.jpeg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <a href="img/bg1.jpeg">
+              <img class="img-fluid" src="img/bg1.jpeg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <a href="img/image3.jpeg">
+              <img class="img-fluid" src="img/image3.jpeg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-0 mt-md-4">
+        <div class="col-md-4">
+          <div>
+            <a href="img/image4.jpeg">
+              <img class="img-fluid" src="img/pexels-francesco-ungaro-1525041.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <a href="img/image5.jpeg">
+              <img class="img-fluid" src="img/pexels-fabian-wiktor-994605.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <a href="img/image6.jpeg">
+              <img class="img-fluid" src="img/image6.jpeg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- gallery end -->
+  <!-- contact -->
+
+  <section class="my-5 py-3" id="contact">
+    <div class="container-fluid bg-dark text-light my-5">
+      <article class="py-5 text-center">
+        <h1 class="text-center text-light">Want To Join Now</h1>
+        <p class="text-light">If you want best service. Join now</p>
+        <button class="btn btn-outline-info" data-toggle="modal" data-target="#modalcon">Join Now</button>
+      </article>
+    </div>
+
+
+
+    <div class="container pt-2">
+
+      <h1 class="text-center text-capitalize font-weight-bold">Contact Us</h1>
+      <hr class="w-25 mx-auto mb-5">
+
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="text-center">Please fill out this form to contact us</h4>
+              <div class="row pt-4">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" placeholder="Frist Name" class="form-control">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" placeholder="Last Name" class="form-control">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" placeholder="Email" class="form-control">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" placeholder="Phone Number" class="form-control">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <textarea name="" placeholder="Massage" class="form-control mt-0 mb-0" id="" cols="20"
+                      rows="5"></textarea>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group mb-0">
+                    <input class="btn btn-dark btn-block" type="submit" value="Send">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+<!-- contact -->
+
+  <!-- footer -->
+  <footer id="foot" class="text-light text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col pt-3">
+                <p class="lead">Copyright <a href="https://www.facebook.com/RubayedAhmedFoysal">&copy; Rubayed Ahmed Foysal</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer -->
+
+<!-- modal -->
+<div class="container">
+  <div class="row">
+    <div class="modal" id="modalcon">
+      <div class="modal-dialog">
+        <div class="modal-content bg-light">
+          <div class="modal-header">
+            <h2 class="modal-title">SignUp</h2>
+            <button class="close text-dark" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text"id="email" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="pass">Password</label>
+                <input type="password" id="pass" class="form-control" />
+              </div>
+
+              <div class="form-group pt-1">
+                <input type="checkbox">
+                <label for="check">Remamber me</label>
+              </div>
+              
+              <div class="mx-auto text-center">
+                <button class="btn btn-outline-info btn-block">Sign Up</button>
+              </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal -->
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="./plugin/js/uikit.min.js"></script>
+  <script src="./plugin/js/uikit-icons.min.js"></script>
+  <script src="./plugin/js/navbar-fixed.js"></script>
+</body>
+
+</html>

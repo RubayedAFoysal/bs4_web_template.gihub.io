@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+  background: #000;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item-img1 {
+  background: url("../img/pexels-francesco-ungaro-1525041.jpg");
+  background-size: initial;
+}
+
+.carousel-item-img2 {
+  background: url("../img/pexels-james-wheeler-417074.jpg");
+  background-size: cover;
+}
+
+.carousel-item-img3 {
+  background: url("../img/pexels-pok-rie-132037.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#gallary img {
+  height: 250px;
+}
+
+#foot {
+  background-color: #000;
+}
+
+.gall {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#call {
+  margin-left: -2px;
+}
+
+.drop {
+  color: rgba(255, 255, 255, 0.5);
+}
+#menu{
+  background-color: #000;
+}
+#menu:hover{
+  background-color: #000;
+}
+.drop:hover{
+  color: #fff;
+  background-color: #000;
+}
+
+@media (max-width:768px) {
+  .carousel-caption {
+    .lead {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+  }
+}
